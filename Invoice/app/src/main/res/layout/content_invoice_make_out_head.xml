@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="全部"
+        android:layout_weight="1"
+        android:background="#DFF8FF"
+        android:id="@+id/make_out_button_for_all"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="正常票"
+        android:layout_weight="1"
+        android:background="#DFF8FF"
+        android:id="@+id/make_out_button_noraml"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="废票"
+        android:layout_weight="1"
+        android:background="#DFF8FF"
+        android:id="@+id/make_out_button_invalid"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="退票"
+        android:layout_weight="1"
+        android:background="#DFF8FF"
+        android:id="@+id/make_out_button_refund"
+        />
+
+</LinearLayout>

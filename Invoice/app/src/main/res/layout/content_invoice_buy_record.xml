@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.caroline.invoice.activity.main.InvoiceBuyRecordActivity"
+    tools:showIn="@layout/activity_invoice_buy_record"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增加购票记录"
+        android:id="@+id/content_invoice_buy_button_add_invoice"
+        android:textColor="#FFF04E"
+        android:background="#4FA714"
+        android:layout_marginBottom="5dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_invoice_buy_list_view_invoice"
+        />
+</android.support.constraint.ConstraintLayout>

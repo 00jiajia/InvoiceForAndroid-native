@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:background="#BFCDDB"
+    android:orientation="horizontal"
+    android:visibility="visible"
+    >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="发票代码" />
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="开始号码" />
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="截止号码"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="份数"
+        android:gravity="center"
+        />
+
+</LinearLayout>

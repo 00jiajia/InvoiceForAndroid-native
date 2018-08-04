@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="新增开票人"
+            android:textSize="24dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#B2B2B2" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="登录名:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                />
+
+            <EditText
+                android:id="@+id/add_drawer_login_name"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="姓名:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:layout_gravity="right|center"
+                android:gravity="right|center"
+                />
+
+            <EditText
+                android:id="@+id/add_drawer_name"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="角色:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:gravity="right|center"
+                />
+
+            <Spinner
+                android:id="@+id/add_drawer_role"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="登录密码:"
+                android:textSize="15dp"
+                android:gravity="right|center"
+                android:layout_weight="1"
+                />
+
+            <EditText
+                android:id="@+id/add_drawer_pass"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                android:inputType="textPassword"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/admin_png"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/admin"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="上传头像"
+            android:background="#F0F0F0"
+            android:id="@+id/img_upload"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:id="@+id/new_drawer_sure"
+            android:layout_weight="1"
+            android:layout_marginRight="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="bottom"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:id="@+id/new_drawer_cancel"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+</LinearLayout>
